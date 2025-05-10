@@ -14,9 +14,8 @@ function Extension_Color(params) {
         <button onClick={toggleTheme}>
          
         {theme === 'light' ?
-         <i className="fa-solid fa-moon"></i>
-          
-        : <i className="fa-solid fa-sun"></i>
+         <i className="fa-solid fa-sun"></i>
+        : <i className="fa-solid fa-moon"></i>
           
           }
         </button>
