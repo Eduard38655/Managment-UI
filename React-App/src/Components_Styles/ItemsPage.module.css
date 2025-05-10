@@ -1,0 +1,188 @@
+.Div_Items{
+    width: 88%;
+    height:135dvh;
+    
+    
+
+}
+.DivContainer{
+    width:100%;
+    height:auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    
+}
+
+.Div_Details{
+    width: 390px;
+    height: 200px;
+    background-color: hsl(226, 25%, 17%);
+    display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 20px;
+   border-radius: 20px;
+   border: 1px solid hsl(226, 11%, 37%);
+}
+ 
+.Div_Details .Div_IMG{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     
+
+}
+.Div_Details .Div_IMG p{
+ width: 70%;
+ color: hsl(0, 0%, 78%);
+}
+.Div_Details .Div_IMG p span{
+font-size: 20px;
+color: hsl(0, 0%, 93%);
+font-weight: 700;
+}
+.Div_Details  .Div_IMG img{
+    width: 70px;
+    height: 70px;
+
+    
+}
+
+.Div_Details .Div_Options{
+    width: 98%;
+    height: 40px;
+    display: flex;
+     
+justify-content:space-between;
+    flex-direction: row;
+ 
+     
+
+}
+
+.Div_Details .Div_Options button{
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 35px;
+    font-size: 17px;
+    font-weight: 600;
+    color: hsl(0, 0%, 78%);
+    border: 1px solid hsl(0, 0%, 78%);
+    background-color: hsl(226, 25%, 17%);
+}
+
+.Div_Details .Div_Options input:checked{
+    width: 50px;
+    height: 30px;
+    background-color: hsl(3, 86%, 64%);
+    margin-left: -60px;
+    
+}
+ 
+.Div_Details .Div_Options input {
+    width: 50px;
+    height: 30px;
+    background-color: hsl(0, 0%, 78%);
+    color: red;
+    margin-left: -60px;
+    
+}
+[data-theme='light'] .Div_Details{
+    background-color: hsl(200, 60%, 99%);
+    border: 1px solid hsl(0, 0%, 78%);
+}
+
+[data-theme='light'] .Div_Details .Div_IMG p{
+    width: 70%;
+    color: hsl(226, 11%, 37%);
+    font-weight: 400;
+   }
+[data-theme='light'] .Div_Details .Div_IMG p span{
+   font-size: 20px;
+   color: hsl(227, 75%, 14%);
+   font-weight: 700;
+   }
+
+   [data-theme='light'] .Div_Details .Div_Options button{
+    font-weight: 600;
+    color: hsl(226, 25%, 17%);
+    border: 1px solid hsl(0, 0%, 78%);
+    background-color: hsl(200, 60%, 99%);
+}
+
+[data-theme='dark'] .Div_Details .Div_Options button:hover{
+    border: 1px solid hsl(3, 71%, 56%);
+    background-color: hsl(226, 11%, 37%);
+    color: hsl(200, 60%, 99%);
+}
+
+[data-theme='dark'] .Div_Details .Div_Options button:focus{
+    border: 1px solid hsl(3, 71%, 56%);
+    background-color: hsl(3, 86%, 64%);
+    color:hsl(226, 25%, 17%);
+}
+[data-theme='dark'] .Div_Details .Div_Options button:active{
+    border: 1px solid hsl(3, 71%, 56%);
+    background-color: hsl(3, 86%, 64%);
+    color:hsl(226, 25%, 17%);
+}
+
+[data-theme='light'] .Div_Details .Div_Options input:checked{
+    width: 50px;
+    height: 30px;
+    background-color: hsl(3, 77%, 44%);
+    
+    margin-left: -60px;
+    
+}
+[data-theme='light'] .Div_Details .Div_Options input{
+    width: 50px;
+    height: 30px;
+    background-color: hsl(0, 0%, 78%);
+    margin-left: -60px;
+    
+}
+[data-theme='light'] .Div_Details .Div_Options button:hover{
+    border: 1px solid hsl(3, 71%, 56%);
+    background-color: hsl(217, 61%, 90%);
+    color: hsl(226, 25%, 17%);
+}
+
+
+[data-theme='light'] .Div_Details .Div_Options button:focus{
+    border: 1px solid hsl(3, 71%, 56%);
+    background-color: hsl(217, 61%, 90%);
+    color: hsl(226, 25%, 17%);
+}
+[data-theme='light'] .Div_Details .Div_Options button:active{
+    border: 1px solid hsl(3, 71%, 56%);
+    background-color: hsl(217, 61%, 90%);
+    color: hsl(226, 25%, 17%);
+}
+@media screen and (max-width:500px) {
+
+    .Div_Items{
+        width: 100%;
+        height:135dvh;
+        
+        
+    
+    }
+    .DivContainer{
+        width:100%;
+        height:auto;
+        display:flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+       
+        
+    }
+    
+
+}

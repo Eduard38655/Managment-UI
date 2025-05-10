@@ -1,0 +1,48 @@
+.Div_Extencios{
+    width: 87%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.Div_Extencios button{
+width: 60px;
+height: 50px;
+border: none;
+border-radius: 10px;
+font-size: 20px;
+}
+ 
+[data-theme='light'] .Div_Extencios {
+    background-color: hsl(200, 60%, 99%);
+} 
+
+[data-theme='light']  .Div_Extencios button{ 
+    color: hsl(227, 75%, 14%);
+    background-color: hsl(217, 61%, 90%);
+ }
+ [data-theme='light']  .Div_Extencios button:hover{ 
+   border: 2px solid hsl(3, 77%, 44%);
+ }
+[data-theme='dark']  .Div_Extencios button{
+color: hsl(0, 0%, 78%);
+background-color: hsl(226, 11%, 37%);
+}
+[data-theme='dark']  .Div_Extencios button:hover{
+    color: hsl(0, 0%, 78%);
+    background-color: hsl(226, 11%, 37%);
+    border: 2px solid hsl(3, 71%, 56%);
+}
+
+[data-theme='dark'] .Div_Extencios {
+background-color:hsl(225, 23%, 24%);
+
+} 
+[data-theme='dark'] .Div_Extencios img{
+    filter: invert(1) brightness(5) contrast(1); /* blanco extremo */
+
+}
+ 
