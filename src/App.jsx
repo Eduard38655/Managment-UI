@@ -7,6 +7,7 @@ import MainPage from "../src/Pages/MainPage.jsx"; // Correcta ruta al componente
 
 function App() {
   return (
+    <> 
     <ThemeProvider>
     <AppProvider>
 <BrowserRouter  basename="/Managment-UI" >
@@ -19,6 +20,7 @@ function App() {
       
     </AppProvider>
     </ThemeProvider>
+     </>
   );
 }
 
