@@ -1,14 +1,14 @@
-import logoConsolePlus from '../React-App/src/assets/logo-console-plus.svg';
-import logoDOMSnapshot from "../React-App/src/assets/logo-devlens.svg";
-import logoGridGuides from '../React-App/src/assets/logo-grid-guides.svg';
-import logoJSONWizard from '../React-App/src/assets/logo-json-wizard.svg';
-import logoLinkChecker from '../React-App/src/assets/logo-link-checker.svg';
-import logoMarkupNotes from '../React-App/src/assets/logo-markup-notes.svg';
-import logoPalettePicker from '../React-App/src/assets/logo-palette-picker.svg';
-import logoSpeedBoost from '../React-App/src/assets/logo-speed-boost.svg';
-import logoStyleSpy from '../React-App/src/assets/logo-style-spy.svg';
-import logoTabMaster from '../React-App/src/assets/logo-tab-master-pro.svg';
-import logoViewportBuddy from '../React-App/src/assets/logo-viewport-buddy.svg';
+import logoConsolePlus from '../src/assets/logo-console-plus.svg';
+import logoDOMSnapshot from "../src/assets/logo-devlens.svg";
+import logoGridGuides from '../src/assets/logo-grid-guides.svg';
+import logoJSONWizard from '../src/assets/logo-json-wizard.svg';
+import logoLinkChecker from '../src/assets/logo-link-checker.svg';
+import logoMarkupNotes from '../src/assets/logo-markup-notes.svg';
+import logoPalettePicker from '../src/assets/logo-palette-picker.svg';
+import logoSpeedBoost from '../src/assets/logo-speed-boost.svg';
+import logoStyleSpy from '../src/assets/logo-style-spy.svg';
+import logoTabMaster from '../src/assets/logo-tab-master-pro.svg';
+import logoViewportBuddy from '../src/assets/logo-viewport-buddy.svg';
 
 const Data_Items_Info=  [
     {
