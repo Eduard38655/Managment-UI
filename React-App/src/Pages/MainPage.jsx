@@ -1,4 +1,3 @@
-import React from 'react';
 import Extension_Color from '../Components/Extensios.jsx';
 import ItemsPage from "../Components/ItemsPage.jsx";
 import Status_Button from "../Components/StatusInfo.jsx";
@@ -9,6 +8,7 @@ function MainPage() {
   <div className={Styles.HomePage}>
     <Extension_Color />
     <Status_Button  />
+    
     <ItemsPage />
   </div>
   );

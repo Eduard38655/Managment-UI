@@ -1,5 +1,4 @@
 // App.jsx
-import React from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import AppProvider from "../src/Context/Context.jsx"; // Asegúrate de importar correctamente
 import { ThemeProvider } from "../src/Context/Themes.jsx";
@@ -10,11 +9,14 @@ function App() {
   return (
     <ThemeProvider>
     <AppProvider>
-      <Router>
+<BrowserRouter  basename="/Managment-UI" >
+<Router>
         <Routes>
           <Route path="/" element={<MainPage />} />
         </Routes>
       </Router>
+</BrowserRouter>
+      
     </AppProvider>
     </ThemeProvider>
   );
