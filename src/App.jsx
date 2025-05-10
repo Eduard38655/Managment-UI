@@ -1,26 +1,20 @@
 // App.jsx
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import AppProvider from "../src/Context/Context.jsx"; // Asegúrate de importar correctamente
-import { ThemeProvider } from "../src/Context/Themes.jsx";
-import MainPage from "../src/Pages/MainPage.jsx"; // Correcta ruta al componente
-
+import AppProvider from "./Context/Context.jsx";
+import { ThemeProvider } from "./Context/Themes.jsx";
+import MainPage from "./Pages/MainPage.jsx";
 
 function App() {
   return (
-    <> 
     <ThemeProvider>
-    <AppProvider>
-<BrowserRouter  basename="/Managment-UI" >
-<Router>
-        <Routes>
-          <Route path="/" element={<MainPage />} />
-        </Routes>
-      </Router>
-</BrowserRouter>
-      
-    </AppProvider>
+      <AppProvider>
+        <BrowserRouter basename="/Managment-UI">
+          <Routes>
+            <Route path="/" element={<MainPage />} />
+          </Routes>
+        </BrowserRouter>
+      </AppProvider>
     </ThemeProvider>
-     </>
   );
 }
 
